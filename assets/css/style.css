@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu-Light.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Ubuntu;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+header a {
+    text-decoration: none;
+    color: #957554;
+    font-family: Ubuntu;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.header-logo-div {
+    margin-bottom: 3.6%;
+}
+
+.nav-list-flex {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.nav-div {
+    width: 90%;
+    margin: 1%;
+}
+.welcome-section-2 {
+    background: url(../img/hero_image.png) center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    height: 70vh;
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+.welcome-section-2 p {
+    font-weight: bold;
+}
+
+.main-sections p {
+    margin: 8px 0 35px;
+    font-size: 0.6rem;
+}
+.welcome-section-2 a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #DFAA5B;
+    padding: 20px 90px;
+}
+.welcome-section-2 div {
+    margin-top: 9.9%;
+}
