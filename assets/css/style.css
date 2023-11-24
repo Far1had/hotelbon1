@@ -105,7 +105,7 @@ header a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 25%;
+    gap: 40%;
 
 }
 .ul-nav2 a {
@@ -129,15 +129,21 @@ header a {
 
 @media only screen and (max-width: 760px) {
     .ul-icon1 li img {
-        width: 0.5em;
-        height: 0.5em;
+        width: 0.9m;
+        height: 0.9em;
     }
     html {
         font-size: 12px;
     }
     .ul-nav2 a {
-        font-size: 0.4em;
-        
+        font-size: 0.4em;  
+    }
+    .welcome-section-2 {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    .facilities {
+        font-size: 1.5rem;
     }
 
 }
@@ -147,14 +153,14 @@ header a {
 @media only screen and (min-width: 768px) {
 
     .ul-icon1 li img {
-        width: 0.8em;
-        height: 0.8em;
+        width: 1em;
+        height: 1em;
     }
     html {
         font-size: 16px;
     }
     .ul-nav2 {
-        font-size: 2em;
+        font-size: ;
         
     }
 
@@ -163,10 +169,14 @@ header a {
 @media only screen and (min-width: 992px) {
 
     .ul-icon1 li img {
-        width: 1em;
-        height: 1em;
+        width: 1.1em;
+        height: 1.1em;
     }
     html {
         font-size: 18px;
+    }
+    .ul-nav2 {
+        font-size: ;
+        
     }
 }    
