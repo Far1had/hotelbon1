@@ -92,13 +92,11 @@ header a {
     text-decoration: none;
 }
 
-.facili-iconlist-flex{
+.facili-iconlist-flex {
     margin: 5%;
 }
 
-.icon-kitch {
-
-}
+.icon-kitch {}
 
 .ul-nav2,
 .ul-icon1 {
@@ -108,6 +106,7 @@ header a {
     gap: 38%;
 
 }
+
 .ul-nav2 a {
     text-decoration: none;
     color: #957554;
@@ -126,7 +125,7 @@ header a {
 }
 */
 
-h4{
+h4 {
     color: #957554;
     font-family: Ubuntu;
     font-size: 3rem;
@@ -195,6 +194,7 @@ figcaption {
 figcaption h2 {
     margin-bottom: 10%;
 }
+
 .getroom {
     text-align: center;
     margin: 10%;
@@ -205,6 +205,7 @@ figcaption h2 {
 .getroom h2 {
     margin: 2%;
 }
+
 .getroom a {
     color: white;
     background-color: #DFAA5B;
@@ -213,48 +214,125 @@ figcaption h2 {
     font-size: 1.4rem;
 }
 
+.marg {
+    margin-top: 20%;
+}
+
+
 input[type=submit]:hover {
-    background-color: input[type=submit]:hover {background-color: #957554;
+    background-color: #957554;
+
 }
+
+a:hover {
+    background-color: #DFAA5B;
+    animation: wobble-animation 1s cubic-bezier(0, 0, 1, 1) 0s 1 normal both running;
 }
+
 a:hover {
     background-color: #957554;
     animation: wobble-animation 1s cubic-bezier(0, 0, 1, 1) 0s 1 normal both running;
 }
-a:hover {
-    background-color: #957554;
-    animation: wobble-animation 1s cubic-bezier(0, 0, 1, 1) 0s 1 normal both running;
+
+
+#contactus {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#contactus div {
+    text-align: left;
+}
+
+#contactus img {
+    max-width: 100px;
+    margin-top: 30%;
+    margin-bottom: 35%;
+}
+
+#contactus p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+#contactus ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30%;
+}
+
+#contactus a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#contactus ul li {
+    margin-bottom: 5px;
+}
+
+#contactus h2 {
+    color: white;
+    margin-top: 18%;
+    margin-bottom: 10%;
+    font-size: 2em;
+}
+
+#contactus form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactus input[type="email"] {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#contactus input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#contactus input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@keyframes wobble-animation {
+    0% {
+        transform: translate(0, 0);
     }
-    
-    @keyframes wobble-animation {
-        0% {
-            transform: translate(0, 0);
-        }
-    
-        15% {
-            transform: translate(-5%, 0) rotate(-2deg);
-        }
-    
-        30% {
-            transform: translate(5%, 0) rotate(1deg);
-        }
-    
-        45% {
-            transform: translate(-2%, 0) rotate(-0.5deg);
-        }
-    
-        60% {
-            transform: translate(3%, 0) rotate(1deg);
-        }
-    
-        75% {
-            transform: translate(-2%, 0) rotate(-0.3deg);
-        }
-    
-        100% {
-            transform: translate(0, 0);
-        }
+
+    15% {
+        transform: translate(-5%, 0) rotate(-2deg);
     }
+
+    30% {
+        transform: translate(5%, 0) rotate(1deg);
+    }
+
+    45% {
+        transform: translate(-2%, 0) rotate(-0.5deg);
+    }
+
+    60% {
+        transform: translate(3%, 0) rotate(1deg);
+    }
+
+    75% {
+        transform: translate(-2%, 0) rotate(-0.3deg);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
 
 header a:hover {
     background-color: white;
@@ -299,38 +377,38 @@ header a:hover {
 
 .faci img:hover {
     transform: scale(110%);
-        animation: wobble-animation 1s cubic-bezier(0, 0, 1, 1) 0s 1 normal both running;
+    animation: wobble-animation 1s cubic-bezier(0, 0, 1, 1) 0s 1 normal both running;
+}
+
+@keyframes wobble-animation {
+    0% {
+        transform: translate(0, 0);
     }
-    
-    @keyframes wobble-animation {
-        0% {
-            transform: translate(0, 0);
-        }
-    
-        15% {
-            transform: translate(-25%, 0) rotate(-5deg);
-        }
-    
-        30% {
-            transform: translate(20%, 0) rotate(3deg);
-        }
-    
-        45% {
-            transform: translate(-15%, 0) rotate(-3deg);
-        }
-    
-        60% {
-            transform: translate(10%, 0) rotate(2deg);
-        }
-    
-        75% {
-            transform: translate(-5%, 0) rotate(-1deg);
-        }
-    
-        100% {
-            transform: translate(0, 0);
-        }
+
+    15% {
+        transform: translate(-25%, 0) rotate(-5deg);
     }
+
+    30% {
+        transform: translate(20%, 0) rotate(3deg);
+    }
+
+    45% {
+        transform: translate(-15%, 0) rotate(-3deg);
+    }
+
+    60% {
+        transform: translate(10%, 0) rotate(2deg);
+    }
+
+    75% {
+        transform: translate(-5%, 0) rotate(-1deg);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
 
 
 html {
@@ -344,19 +422,24 @@ html {
         width: 1.1m;
         height: 1.1em;
     }
+
     html {
         font-size: 12px;
     }
+
     .ul-nav2 a {
-        font-size: 0.6em;  
+        font-size: 0.6em;
     }
+
     .welcome-section-2 {
         font-size: 1rem;
         font-weight: bold;
     }
+
     .facilities {
         font-size: 1.5rem;
     }
+
     .rooms h2 {
         font-size: 2em;
     }
@@ -371,20 +454,20 @@ html {
         width: 1.5em;
         height: 1.5em;
     }
+
     html {
         font-size: 16px;
     }
-    .ul-nav2 {
-        font-size: 1em;
-        
-    }
+
     .welcome-section-2 {
         font-size: 2rem;
         font-weight: bold;
     }
+
     .facilities {
         font-size: 2.5rem;
     }
+
     .rooms h2 {
         font-size: 2em;
     }
@@ -397,20 +480,21 @@ html {
         width: 2em;
         height: 2em;
     }
+
     html {
         font-size: 18px;
     }
-    .ul-nav2 {
-        font-size: ;        
-    }
+
     .welcome-section-2 {
         font-size: 3rem;
         font-weight: bold;
     }
+
     .facilities {
         font-size: 3.5rem;
     }
+
     .rooms h2 {
         font-size: 2em;
     }
-}    
+}
