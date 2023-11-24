@@ -96,8 +96,8 @@ header a {
     margin: 5%;
 }
 
-.ul-icon1 {
-    box-sizing: 40px 40px 40px 40px;
+.icon-kitch {
+
 }
 
 .ul-nav2,
@@ -117,3 +117,56 @@ header a {
     font-weight: 500;
     line-height: normal;
 }
+
+/* ------------------ icon grösse bestimmen ------ /
+
+.ul-icon1 li img {
+    width: 0.5em;
+    height: 0.5em;
+}
+*/
+
+
+@media only screen and (max-width: 760px) {
+    .ul-icon1 li img {
+        width: 0.5em;
+        height: 0.5em;
+    }
+    html {
+        font-size: 12px;
+    }
+    .ul-nav2 a {
+        font-size: 0.4em;
+        
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .ul-icon1 li img {
+        width: 0.8em;
+        height: 0.8em;
+    }
+    html {
+        font-size: 16px;
+    }
+    .ul-nav2 {
+        font-size: 2em;
+        
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .ul-icon1 li img {
+        width: 1em;
+        height: 1em;
+    }
+    html {
+        font-size: 18px;
+    }
+}    
